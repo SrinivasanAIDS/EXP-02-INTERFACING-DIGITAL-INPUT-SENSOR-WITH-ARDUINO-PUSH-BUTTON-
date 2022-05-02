@@ -62,20 +62,36 @@ CIRCUIT DIAGRAM
 
 FIGURE -03
 
-
-
-
+![Screenshot 2022-05-02 184215](https://user-images.githubusercontent.com/103049243/166239659-8030ae91-052b-494b-9b06-46842ee20e57.png)
 
 PROGRAM 
- 
- 
- 
+```python
+const int BUTTON = 2;
+const int LED = 8;
+int BUTTONstate = 0;
+void setup()
+{
+  pinMode(BUTTON, INPUT);
+  pinMode(LED, OUTPUT);
+}
+void loop()
+{
+  BUTTONstate = digitalRead(BUTTON);
+  if(BUTTONstate == HIGH)
+  {
+    digitalWrite(LED, HIGH);
+  }
+  else{
+    digitalWrite(LED, LOW);
+  }
+}
+```
  
  
 
 
 
 Output of the simulation :
+![Screenshot 2022-05-02 184352](https://user-images.githubusercontent.com/103049243/166239613-142f7535-6736-4353-8e65-938dce1ddda1.png)
 
-[My image](username.github.com/repository/img/image.jpg)
 
