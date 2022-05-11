@@ -95,3 +95,6 @@ Output of the simulation :
 ![Screenshot 2022-05-02 184352](https://user-images.githubusercontent.com/103049243/166239613-142f7535-6736-4353-8e65-938dce1ddda1.png)
 
 
+### Result:
+Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
+
